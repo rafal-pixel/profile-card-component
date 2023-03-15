@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    html {
+        font-family: 'Kumbh Sans', system-ui, sans-serif;
+    }
+
+    body {
+        font-size: 18px;
+    }
+} 
+
+.bg-custom {
+    background-image: url('/dist/images/bg-pattern-top.svg'), url('/dist/images/bg-pattern-bottom.svg');
+    background-position: -285px -505px, 693px 378px;
+    background-repeat: no-repeat;
+}  
+
+@media(max-width: 639px) {
+    .bg-custom {
+        background-position: -744px -630px, 132px 297px;
+    }
+}
+

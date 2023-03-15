@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/style.css">
+</head>
+
+<body>
+ 
+  <main class="h-screen w-screen flex items-center justify-center bg-dark-cyan bg-custom">
+    
+    <article class="relative w-[352px] sm:w-[324px] h-[373px] flex flex-col items-center justify-end bg-white bg-[url('images/bg-pattern-card.svg')] bg-[length:100%_140px] bg-no-repeat rounded-2xl shadow-3xl">
+      <div class="w-[107px] h-[107px] p-[5px] overflow-hidden rounded-[100%] bg-white mb-[17px]">
+        <img src="./dist/images/image-victor.jpg" alt="image-victor" width="96" height="96" class="h-full w-full rounded-[100%]">
+      </div>
+      <header class="flex flex-col text-center pb-[22px]">
+        <div class="flex mb-[5px]">
+          <h2 class="text-very-dark-desaturated-blu text-main-size font-bold pr-[7px]">Victor Crest</h2> <span class="text-dark-gray">26</span>
+        </div>
+        <span class="text-dark-gray text-[14px] ">London</span>
+      </header>
+      <footer class="w-full flex justify-center text-center p-[22px_27px] border-t border-dark-gray/[.2]">
+        <div class="w-1/3">
+          <p class="text-very-dark-desaturated-blue text-main-size font-bold tracking-wide">80K</p>
+          <p class="text-dark-gray text-[11px] tracking-widest">Followers</p>
+        </div>
+        <div class="w-1/3">
+          <p class="text-very-dark-desaturated-blue text-main-size font-bold tracking-wide">803K</p>
+          <p class="text-dark-gray text-[11px] tracking-widest">Likes</p>
+        </div>
+        <div class="w-1/3">
+          <p class="text-very-dark-desaturated-blue text-main-size font-bold tracking-wide">1.4K</p>
+          <p class="text-dark-gray text-[11px] tracking-widest">Photos</p>
+        </div>
+      </footer>
+    </article>
+
+  </main>
+
+
+</body>
+
+</html>

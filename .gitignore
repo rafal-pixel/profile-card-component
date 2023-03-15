@@ -1,0 +1,10 @@
+
+*node_modules/*
+*design/*
+*README-template.md
+*READMEE.md
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore
