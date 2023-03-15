@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-using-tailwindcss-DqQ0hnlcll)
 - Live Site URL: [live](https://robotamozepoczekac.github.io/profile-card-component/)
 
 ### Built With
